@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a href="index.html" target="_blank" class="navbar-brand">Home</a>
+            <a href="" class="navbar-brand">Orders</a>
+            <a href="" class="navbar-brand">Contact</a>
+            <a href="" class="navbar-brand">Profile</a>
+        </nav>
+    </header>
+    
+    <h1 class="text-center display-4">Faça login para finalizar a compra</h1>
+
+    <form id="form" class="container col-sm-4 justify-content-center" onsubmit="return false">
+        <div class="form-group">                
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Senha: </label>
+            <input type="password" name="senha" class="form-control" required>
+        </div>
+
+        <div class="form-group">
+            <input type="checkbox"> Lembrar senha
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-success">Enviar</button>
+        </div>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
